@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+#main{
+	width: 650px;
+	height: auto;
+	margin: 0 auto;	
+	padding: 0;
+}
+#menu{
+	padding: 0;
+	list-style: none;
+}
+#menu li{
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+	min-width: 100px;
+}
+#menu a{
+	color: #292929;
+	text-decoration: none;
+	display: block;
+	height: 100%;
+}
+#menu a:hover{
+	color: #01a5ca;
+}
+
+#chBlock {
+	background-color: #0f0;
+	margin: 0;
+	padding: 0;
+	width: 650px;
+	height: auto;
+	margin: 0 auto;	
+	padding: 0;
+}
+#anya_photo {
+	display: block;
+	margin: 5px auto;
+	width: 241px;
+	height: 300px;
+}

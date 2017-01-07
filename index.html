@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>	
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<title>JS Learning</title>
+	</head>
+	
+	<body>
+	
+		<script type="text/javascript">	
+			
+			function ScalePhotoOn() {
+				var imgOgj = document.getElementById('anya_photo');
+				
+				imgOgj.style.width = '481px';
+				imgOgj.style.height = '599px';
+			}			
+			
+			function ScalePhotoOut() {
+				var imgOgj = document.getElementById('anya_photo');
+				
+				imgOgj.style.width = '241px';
+				imgOgj.style.height = '300px';
+			}
+		</script>
+		<img id="anya_photo" src="img/anya.png" onmouseover="ScalePhotoOn()" onmouseout="ScalePhotoOut()"/>
+	</body>
+</html>
